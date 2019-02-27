@@ -1,0 +1,12 @@
+libfreerdp/locale/keyboard.c
+libfreerdp/locale/keyboard_layout.c
+libfreerdp/locale/keyboard_sun.c
+libfreerdp/locale/keyboard_sun.h
+libfreerdp/locale/keyboard_x11.c
+libfreerdp/locale/keyboard_x11.h
+libfreerdp/locale/keyboard_xkbfile.c
+libfreerdp/locale/keyboard_xkbfile.h
+libfreerdp/locale/liblocale.h
+libfreerdp/locale/locale.c
+libfreerdp/locale/xkb_layout_ids.c
+libfreerdp/locale/xkb_layout_ids.h
