@@ -21,10 +21,12 @@
 #include "config.h"
 #endif
 
+#include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <glib/gi18n.h>
+#include <locale.h>
 
 #include <winpr/crt.h>
 
@@ -234,7 +236,7 @@ void freerdp_keyboard_layouts_free(RDP_KEYBOARD_LAYOUT* layouts)
 	free(layouts);
 }
 
-RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
+RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types, ...)
 {
 	size_t num, length, i;
 	RDP_KEYBOARD_LAYOUT* layouts;
@@ -244,6 +246,22 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
 
 	if (!layouts)
 		return NULL;
+
+	va_list arg_list;
+	va_start(arg_list, types);
+
+	/* check if we have a second argument as a locale name and set the locale accordingly */
+	char *locale = va_arg(arg_list, char *);
+
+	if (locale != NULL)
+	{
+		//TODO: Find a way to get "FreeRDP" name from a config file
+		#define GETTEXT_PACKAGE "FreeRDP";
+		//bindtextdomain(GETTEXT_PACKAGE, "");
+		bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
+		textdomain(GETTEXT_PACKAGE);
+		setlocale(LC_MESSAGES, locale);
+	}
 
 	if ((types & RDP_KEYBOARD_LAYOUT_TYPE_STANDARD) != 0)
 	{
@@ -258,7 +276,7 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
 		for (i = 0; i < length; i++, num++)
 		{
 			layouts[num].code = RDP_KEYBOARD_LAYOUT_TABLE[i].code;
-			layouts[num].name = _strdup(RDP_KEYBOARD_LAYOUT_TABLE[i].name);
+			layouts[num].name = _strdup(_(RDP_KEYBOARD_LAYOUT_TABLE[i].name));
 
 			if (!layouts[num].name)
 				goto fail;
@@ -278,7 +296,7 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
 		for (i = 0; i < length; i++, num++)
 		{
 			layouts[num].code = RDP_KEYBOARD_LAYOUT_VARIANT_TABLE[i].code;
-			layouts[num].name = _strdup(RDP_KEYBOARD_LAYOUT_VARIANT_TABLE[i].name);
+			layouts[num].name = _strdup(_(RDP_KEYBOARD_LAYOUT_VARIANT_TABLE[i].name));
 
 			if (!layouts[num].name)
 				goto fail;
@@ -298,7 +316,7 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
 		for (i = 0; i < length; i++, num++)
 		{
 			layouts[num].code = RDP_KEYBOARD_IME_TABLE[i].code;
-			layouts[num].name = _strdup(RDP_KEYBOARD_IME_TABLE[i].name);
+			layouts[num].name = _strdup(_(RDP_KEYBOARD_IME_TABLE[i].name));
 
 			if (!layouts[num].name)
 				goto fail;
@@ -306,9 +324,11 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types)
 	}
 
 	ZeroMemory(&layouts[num], sizeof(RDP_KEYBOARD_LAYOUT));
+	va_end(arg_list);
 	return layouts;
 fail:
 	freerdp_keyboard_layouts_free(layouts);
+	va_end(arg_list);
 	return NULL;
 }
 
