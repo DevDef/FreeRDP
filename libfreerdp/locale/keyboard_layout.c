@@ -255,11 +255,11 @@ RDP_KEYBOARD_LAYOUT* freerdp_keyboard_get_layouts(DWORD types, ...)
 
 	if (locale != NULL)
 	{
-		//TODO: Find a way to get "FreeRDP" name from a config file
-		#define GETTEXT_PACKAGE "FreeRDP";
-		//bindtextdomain(GETTEXT_PACKAGE, "");
-		bind_textdomain_codeset(GETTEXT_PACKAGE, "UTF-8");
-		textdomain(GETTEXT_PACKAGE);
+		//TODO: Find a way to get "libfreerdp" name from a config file
+		#define LIBFREERDP_GETTEXT_PACKAGE "libfreerdp";
+		//bindtextdomain(LIBFREERDP_GETTEXT_PACKAGE, "");
+		bind_textdomain_codeset(LIBFREERDP_GETTEXT_PACKAGE, "UTF-8");
+		textdomain(LIBFREERDP_GETTEXT_PACKAGE);
 		setlocale(LC_MESSAGES, locale);
 	}
 
