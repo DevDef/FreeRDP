@@ -1,0 +1,606 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the FreeRDP package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeRDP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 17:25+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: locale/keyboard_layout.c:44
+msgid "Arabic (101)"
+msgstr ""
+
+#: locale/keyboard_layout.c:45
+msgid "Bulgarian"
+msgstr ""
+
+#: locale/keyboard_layout.c:46
+msgid "Chinese (Traditional) - US Keyboard"
+msgstr ""
+
+#: locale/keyboard_layout.c:47
+msgid "Czech"
+msgstr ""
+
+#: locale/keyboard_layout.c:48
+msgid "Danish"
+msgstr ""
+
+#: locale/keyboard_layout.c:49
+msgid "German"
+msgstr ""
+
+#: locale/keyboard_layout.c:50
+msgid "Greek"
+msgstr ""
+
+#: locale/keyboard_layout.c:51
+msgid "US"
+msgstr ""
+
+#: locale/keyboard_layout.c:52
+msgid "Spanish"
+msgstr ""
+
+#: locale/keyboard_layout.c:53
+msgid "Finnish"
+msgstr ""
+
+#: locale/keyboard_layout.c:54
+msgid "French"
+msgstr ""
+
+#: locale/keyboard_layout.c:55
+msgid "Hebrew"
+msgstr ""
+
+#: locale/keyboard_layout.c:56
+msgid "Hungarian"
+msgstr ""
+
+#: locale/keyboard_layout.c:57
+msgid "Icelandic"
+msgstr ""
+
+#: locale/keyboard_layout.c:58
+msgid "Italian"
+msgstr ""
+
+#: locale/keyboard_layout.c:59
+msgid "Japanese"
+msgstr ""
+
+#: locale/keyboard_layout.c:60
+msgid "Korean"
+msgstr ""
+
+#: locale/keyboard_layout.c:61
+msgid "Dutch"
+msgstr ""
+
+#: locale/keyboard_layout.c:62
+msgid "Norwegian"
+msgstr ""
+
+#: locale/keyboard_layout.c:63
+msgid "Polish (Programmers)"
+msgstr ""
+
+#: locale/keyboard_layout.c:64
+msgid "Portuguese (Brazilian ABNT)"
+msgstr ""
+
+#: locale/keyboard_layout.c:65
+msgid "Romanian"
+msgstr ""
+
+#: locale/keyboard_layout.c:66
+msgid "Russian"
+msgstr ""
+
+#: locale/keyboard_layout.c:67
+msgid "Croatian"
+msgstr ""
+
+#: locale/keyboard_layout.c:68
+msgid "Slovak"
+msgstr ""
+
+#: locale/keyboard_layout.c:69
+msgid "Albanian"
+msgstr ""
+
+#: locale/keyboard_layout.c:70
+msgid "Swedish"
+msgstr ""
+
+#: locale/keyboard_layout.c:71
+msgid "Thai Kedmanee"
+msgstr ""
+
+#: locale/keyboard_layout.c:72
+msgid "Turkish Q"
+msgstr ""
+
+#: locale/keyboard_layout.c:73
+msgid "Urdu"
+msgstr ""
+
+#: locale/keyboard_layout.c:74
+msgid "Ukrainian"
+msgstr ""
+
+#: locale/keyboard_layout.c:75
+msgid "Belarusian"
+msgstr ""
+
+#: locale/keyboard_layout.c:76
+msgid "Slovenian"
+msgstr ""
+
+#: locale/keyboard_layout.c:77
+msgid "Estonian"
+msgstr ""
+
+#: locale/keyboard_layout.c:78
+msgid "Latvian"
+msgstr ""
+
+#: locale/keyboard_layout.c:79
+msgid "Lithuanian IBM"
+msgstr ""
+
+#: locale/keyboard_layout.c:80
+msgid "Farsi"
+msgstr ""
+
+#: locale/keyboard_layout.c:81
+msgid "Vietnamese"
+msgstr ""
+
+#: locale/keyboard_layout.c:82
+msgid "Armenian Eastern"
+msgstr ""
+
+#: locale/keyboard_layout.c:83
+msgid "Azeri Latin"
+msgstr ""
+
+#: locale/keyboard_layout.c:84
+msgid "FYRO Macedonian"
+msgstr ""
+
+#: locale/keyboard_layout.c:85
+msgid "Georgian"
+msgstr ""
+
+#: locale/keyboard_layout.c:86
+msgid "Faeroese"
+msgstr ""
+
+#: locale/keyboard_layout.c:87
+msgid "Devanagari - INSCRIPT"
+msgstr ""
+
+#: locale/keyboard_layout.c:88
+msgid "Maltese 47-key"
+msgstr ""
+
+#: locale/keyboard_layout.c:89
+msgid "Norwegian with Sami"
+msgstr ""
+
+#: locale/keyboard_layout.c:90
+msgid "Kazakh"
+msgstr ""
+
+#: locale/keyboard_layout.c:91
+msgid "Kyrgyz Cyrillic"
+msgstr ""
+
+#: locale/keyboard_layout.c:92
+msgid "Tatar"
+msgstr ""
+
+#: locale/keyboard_layout.c:93
+msgid "Bengali"
+msgstr ""
+
+#: locale/keyboard_layout.c:94
+msgid "Punjabi"
+msgstr ""
+
+#: locale/keyboard_layout.c:95
+msgid "Gujarati"
+msgstr ""
+
+#: locale/keyboard_layout.c:96
+msgid "Tamil"
+msgstr ""
+
+#: locale/keyboard_layout.c:97
+msgid "Telugu"
+msgstr ""
+
+#: locale/keyboard_layout.c:98
+msgid "Kannada"
+msgstr ""
+
+#: locale/keyboard_layout.c:99
+msgid "Malayalam"
+msgstr ""
+
+#: locale/keyboard_layout.c:100
+msgid "Marathi"
+msgstr ""
+
+#: locale/keyboard_layout.c:101
+msgid "Mongolian Cyrillic"
+msgstr ""
+
+#: locale/keyboard_layout.c:102
+msgid "United Kingdom Extended"
+msgstr ""
+
+#: locale/keyboard_layout.c:103
+msgid "Syriac"
+msgstr ""
+
+#: locale/keyboard_layout.c:104
+msgid "Nepali"
+msgstr ""
+
+#: locale/keyboard_layout.c:105
+msgid "Pashto"
+msgstr ""
+
+#: locale/keyboard_layout.c:106
+msgid "Divehi Phonetic"
+msgstr ""
+
+#: locale/keyboard_layout.c:107
+msgid "Luxembourgish"
+msgstr ""
+
+#: locale/keyboard_layout.c:108
+msgid "Maori"
+msgstr ""
+
+#: locale/keyboard_layout.c:109
+msgid "Chinese (Simplified) - US Keyboard"
+msgstr ""
+
+#: locale/keyboard_layout.c:110
+msgid "Swiss German"
+msgstr ""
+
+#: locale/keyboard_layout.c:111
+msgid "United Kingdom"
+msgstr ""
+
+#: locale/keyboard_layout.c:112
+msgid "Latin American"
+msgstr ""
+
+#: locale/keyboard_layout.c:113
+msgid "Belgian French"
+msgstr ""
+
+#: locale/keyboard_layout.c:114
+msgid "Belgian (Period)"
+msgstr ""
+
+#: locale/keyboard_layout.c:115
+msgid "Portuguese"
+msgstr ""
+
+#: locale/keyboard_layout.c:116
+msgid "Serbian (Latin)"
+msgstr ""
+
+#: locale/keyboard_layout.c:117
+msgid "Azeri Cyrillic"
+msgstr ""
+
+#: locale/keyboard_layout.c:118
+msgid "Swedish with Sami"
+msgstr ""
+
+#: locale/keyboard_layout.c:119
+msgid "Uzbek Cyrillic"
+msgstr ""
+
+#: locale/keyboard_layout.c:120
+msgid "Inuktitut Latin"
+msgstr ""
+
+#: locale/keyboard_layout.c:121
+msgid "Canadian French (legacy)"
+msgstr ""
+
+#: locale/keyboard_layout.c:122
+msgid "Serbian (Cyrillic)"
+msgstr ""
+
+#: locale/keyboard_layout.c:123
+msgid "Canadian French"
+msgstr ""
+
+#: locale/keyboard_layout.c:124
+msgid "Canadian English"
+msgstr ""
+
+#: locale/keyboard_layout.c:125
+msgid "Swiss French"
+msgstr ""
+
+#: locale/keyboard_layout.c:126
+msgid "Bosnian"
+msgstr ""
+
+#: locale/keyboard_layout.c:127
+msgid "Irish"
+msgstr ""
+
+#: locale/keyboard_layout.c:128
+msgid "Bosnian Cyrillic"
+msgstr ""
+
+#: locale/keyboard_layout.c:141
+msgid "Arabic (102)"
+msgstr ""
+
+#: locale/keyboard_layout.c:142
+msgid "Bulgarian (Latin)"
+msgstr ""
+
+#: locale/keyboard_layout.c:143
+msgid "Czech (QWERTY)"
+msgstr ""
+
+#: locale/keyboard_layout.c:144
+msgid "German (IBM)"
+msgstr ""
+
+#: locale/keyboard_layout.c:145
+msgid "Greek (220)"
+msgstr ""
+
+#: locale/keyboard_layout.c:146
+msgid "United States-Dvorak"
+msgstr ""
+
+#: locale/keyboard_layout.c:147
+msgid "Spanish Variation"
+msgstr ""
+
+#: locale/keyboard_layout.c:148
+msgid "Hungarian 101-key"
+msgstr ""
+
+#: locale/keyboard_layout.c:149
+msgid "Italian (142)"
+msgstr ""
+
+#: locale/keyboard_layout.c:150
+msgid "Polish (214)"
+msgstr ""
+
+#: locale/keyboard_layout.c:151
+msgid "Portuguese (Brazilian ABNT2)"
+msgstr ""
+
+#: locale/keyboard_layout.c:152
+msgid "Russian (Typewriter)"
+msgstr ""
+
+#: locale/keyboard_layout.c:153
+msgid "Slovak (QWERTY)"
+msgstr ""
+
+#: locale/keyboard_layout.c:154
+msgid "Thai Pattachote"
+msgstr ""
+
+#: locale/keyboard_layout.c:155
+msgid "Turkish F"
+msgstr ""
+
+#: locale/keyboard_layout.c:156
+msgid "Latvian (QWERTY)"
+msgstr ""
+
+#: locale/keyboard_layout.c:157
+msgid "Lithuanian"
+msgstr ""
+
+#: locale/keyboard_layout.c:158
+msgid "Armenian Western"
+msgstr ""
+
+#: locale/keyboard_layout.c:159
+msgid "Hindi Traditional"
+msgstr ""
+
+#: locale/keyboard_layout.c:160
+msgid "Maltese 48-key"
+msgstr ""
+
+#: locale/keyboard_layout.c:161
+msgid "Sami Extended Norway"
+msgstr ""
+
+#: locale/keyboard_layout.c:162
+msgid "Bengali (Inscript)"
+msgstr ""
+
+#: locale/keyboard_layout.c:163
+msgid "Syriac Phonetic"
+msgstr ""
+
+#: locale/keyboard_layout.c:164
+msgid "Divehi Typewriter"
+msgstr ""
+
+#: locale/keyboard_layout.c:165
+msgid "Belgian (Comma)"
+msgstr ""
+
+#: locale/keyboard_layout.c:166
+msgid "Finnish with Sami"
+msgstr ""
+
+#: locale/keyboard_layout.c:167
+msgid "Canadian Multilingual Standard"
+msgstr ""
+
+#: locale/keyboard_layout.c:168
+msgid "Gaelic"
+msgstr ""
+
+#: locale/keyboard_layout.c:169
+msgid "Arabic (102) AZERTY"
+msgstr ""
+
+#: locale/keyboard_layout.c:170
+msgid "Czech Programmers"
+msgstr ""
+
+#: locale/keyboard_layout.c:171
+msgid "Greek (319)"
+msgstr ""
+
+#: locale/keyboard_layout.c:172
+msgid "United States-International"
+msgstr ""
+
+#: locale/keyboard_layout.c:173
+msgid "Thai Kedmanee (non-ShiftLock)"
+msgstr ""
+
+#: locale/keyboard_layout.c:174
+msgid "Sami Extended Finland-Sweden"
+msgstr ""
+
+#: locale/keyboard_layout.c:175
+msgid "Greek (220) Latin"
+msgstr ""
+
+#: locale/keyboard_layout.c:176
+msgid "United States-Dvorak for left hand"
+msgstr ""
+
+#: locale/keyboard_layout.c:177
+msgid "Thai Pattachote (non-ShiftLock)"
+msgstr ""
+
+#: locale/keyboard_layout.c:178
+msgid "Greek (319) Latin"
+msgstr ""
+
+#: locale/keyboard_layout.c:179
+msgid "United States-Dvorak for right hand"
+msgstr ""
+
+#: locale/keyboard_layout.c:180
+msgid "United States-Programmer Dvorak"
+msgstr ""
+
+#: locale/keyboard_layout.c:181
+msgid "Greek Latin"
+msgstr ""
+
+#: locale/keyboard_layout.c:182
+msgid "US English Table for IBM Arabic 238_L"
+msgstr ""
+
+#: locale/keyboard_layout.c:183
+msgid "Greek Polytonic"
+msgstr ""
+
+#: locale/keyboard_layout.c:184
+msgid "French Bépo"
+msgstr ""
+
+#: locale/keyboard_layout.c:185
+msgid "German Neo"
+msgstr ""
+
+#: locale/keyboard_layout.c:202
+msgid "Chinese (Traditional) - Phonetic"
+msgstr ""
+
+#: locale/keyboard_layout.c:203
+msgid "Japanese Input System (MS-IME2002)"
+msgstr ""
+
+#: locale/keyboard_layout.c:204
+msgid "Korean Input System (IME 2000)"
+msgstr ""
+
+#: locale/keyboard_layout.c:205
+msgid "Chinese (Simplified) - QuanPin"
+msgstr ""
+
+#: locale/keyboard_layout.c:206
+msgid "Chinese (Traditional) - ChangJie"
+msgstr ""
+
+#: locale/keyboard_layout.c:207
+msgid "Chinese (Simplified) - ShuangPin"
+msgstr ""
+
+#: locale/keyboard_layout.c:208
+msgid "Chinese (Traditional) - Quick"
+msgstr ""
+
+#: locale/keyboard_layout.c:209
+msgid "Chinese (Simplified) - ZhengMa"
+msgstr ""
+
+#: locale/keyboard_layout.c:210
+msgid "Chinese (Traditional) - Big5 Code"
+msgstr ""
+
+#: locale/keyboard_layout.c:211
+msgid "Chinese (Traditional) - Array"
+msgstr ""
+
+#: locale/keyboard_layout.c:212
+msgid "Chinese (Simplified) - NeiMa"
+msgstr ""
+
+#: locale/keyboard_layout.c:213
+msgid "Chinese (Traditional) - DaYi"
+msgstr ""
+
+#: locale/keyboard_layout.c:214
+msgid "Chinese (Traditional) - Unicode"
+msgstr ""
+
+#: locale/keyboard_layout.c:215
+msgid "Chinese (Traditional) - New Phonetic"
+msgstr ""
+
+#: locale/keyboard_layout.c:216
+msgid "Chinese (Traditional) - New ChangJie"
+msgstr ""
+
+#: locale/keyboard_layout.c:217
+msgid "Chinese (Traditional) - Microsoft Pinyin IME 3.0"
+msgstr ""
+
+#: locale/keyboard_layout.c:218
+msgid "Chinese (Traditional) - Alphanumeric"
+msgstr ""
